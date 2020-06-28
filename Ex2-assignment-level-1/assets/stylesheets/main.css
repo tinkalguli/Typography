@@ -150,7 +150,14 @@ table {
 *========================================*/
 
 body {
-  font: 400 14px/1.5 'Libre Baskerville', serif;
+  font: 400 16px/1.5 'Karla', sans-serif;
+}
+
+h1,
+h2,
+strong,
+time {
+  font-family: 'Libre Baskerville', serif;
 }
 
 .bold {
@@ -167,16 +174,16 @@ body {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 38px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 time,
 strong {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 p {
@@ -194,7 +201,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 30px;
 }
